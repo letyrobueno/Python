@@ -4,9 +4,9 @@
 def fibonacci_rec(n):
     """Return the Fibonacci number of n"""
     if (n < 2):
-    	return n
+        return n
     else:
-    	return(fibonacci_rec(n-1) + fibonacci_rec(n-2))
+        return(fibonacci_rec(n-1) + fibonacci_rec(n-2))
 
 # Iterative program to calculate Fibonacci numbers, i.e., F(0) = 0; F(1) = 1; F(n) = F(n-1) + F(n-2), for n>1
 # Time complexity: linear, since the loop runs from 1 to n, so it runs in O(n) time
@@ -16,9 +16,9 @@ def fibonacci_iter(n):
     i = 1
 
     for k in range(1,n):
-    	t = i + j
-    	i = j
-    	j = t
+        t = i + j
+        i = j
+        j = t
     return j
 
 
