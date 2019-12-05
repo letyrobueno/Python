@@ -1,7 +1,7 @@
 # Program to calculate the factorial of a number n, i.e., n!=n * (n-1) * ... * 2 * 1.
 def factorial(n):
     """Return the factorial of a number n"""
-    if n==1:
+    if n == 1:
         return 1
     else:
         return n * factorial(n-1)
