@@ -1,5 +1,5 @@
 # Recursive program to calculate Fibonacci numbers, i.e., F(0) = 0; F(1) = 1; F(n) = F(n-1) + F(n-2), for n>1
-# It calculates the Fibonacci of some numbers multiple times.
+# Not the best resolution: it calculates the Fibonacci of some numbers multiple times.
 # Time complexity: given by the recurrence T(n) = T(n-1) + T(n-2) + 4, which results in O(2^n) (exponential time)
 def fibonacci_rec(n):
     """Return the Fibonacci number of n"""
