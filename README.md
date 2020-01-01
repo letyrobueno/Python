@@ -9,3 +9,5 @@
 ## Iterators
 1. [Types of iterators](https://github.com/letyrobueno/Python/blob/master/iterators/iterators.py)
 2. [Loading too large files: loading files in chunks](https://github.com/letyrobueno/Python/blob/master/iterators/iterating-large-files.py)
+3. [List comprehensions](https://github.com/letyrobueno/Python/blob/master/iterators/list-comprehensions.py)
+4. [Generators](https://github.com/letyrobueno/Python/blob/master/iterators/generators.py)

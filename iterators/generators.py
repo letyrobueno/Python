@@ -1,8 +1,8 @@
 """ Generator functions allow to declare a function that behaves like an iterator
-	List comprehension returns a list (wholly generated at its creation time), while generators return a generator object
-	A generator can be created in two ways:
-	(1) Very similar to a list comprehension;
-	(2) As a function, using yield to return the next value.
+    List comprehension returns a list (wholly generated at its creation time), while generators return a generator object
+    A generator can be created in two ways:
+    (1) Very similar to a list comprehension;
+    (2) As a function, using yield to return the next value.
 """
 
 # Instead of this list comprehension:
@@ -19,7 +19,7 @@ print(list(product_gen))
 # Another way:
 product_gen = (2 * num for num in range(10)) # Use parentheses instead of brackets
 for num in product_gen:
-	print(num)
+    print(num)
 
 # Another way - Lazy Evaluation (object is evaluated when it is needed, not when it is created):
 print('\nLazy Evaluation:')
@@ -56,10 +56,10 @@ print(list(even_numbers))
 # ************ Generator as a function, using yield to return the next value ************
 print('\nGenerator as a function, using yield to return the next value:')
 def number_sequence(n):
-	"""Generate values from 0 to n."""
-	i = 0
-	while i < n:
-		yield i
-		i += 1
+    """Generate values from 0 to n."""
+    i = 0
+    while i < n:
+        yield i
+        i += 1
 result = number_sequence(5)
 print(list(result))
