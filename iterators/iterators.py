@@ -98,6 +98,11 @@ print(next(heroes_iter))
 print(next(heroes_iter))
 print(next(heroes_iter))
 
+# Iterating to print just the first character of each string
+print('\nLISTS: Iterating to print just the first character of each string')
+result = [hero[0] for hero in heroes]
+print(result)
+
 # Using enumerate()
 print('\nLISTS: Using enumerate()')
 heroes_e = enumerate(heroes)

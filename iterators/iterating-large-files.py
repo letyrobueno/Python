@@ -3,6 +3,7 @@
 import pandas as pd
 
 # ************* Summing up the values of a column *************
+print('\nSumming up the values of a column:')
 result = [] # initializing a list
 
 for chunk in pd.read_csv('imdb-top-250.csv', chunksize=50):
@@ -11,6 +12,7 @@ total = sum(result)
 print(total)
 
 # OR YET:
+print('\nSumming up the values of a column - Another way:')
 total = 0
 for chunk in pd.read_csv('imdb-top-250.csv', chunksize=50):
     total += sum(chunk['rank'])
@@ -18,9 +20,9 @@ print(total)
 
 
 # ************* Counting the number of films for each release year *************
-count = {}  # initializing a dictionary
+print('\nCounting the number of films for each release year:')
+count = {}  # initializing a dictionary (use braces!)
 
-# Iterating the file
 for chunk in pd.read_csv('imdb-top-250.csv', chunksize=50):
 
     # Iterating over a column in the dataframe chunk
@@ -30,20 +32,18 @@ for chunk in pd.read_csv('imdb-top-250.csv', chunksize=50):
         else:
             count[entry] = 1
 
-# Print dictionary
 print(count)
 
 
 # ************* Function to count number of occurrences of values in a given column *************
+print('\nFunction to count number of occurrences of values in a given column:')
+
 def count_values(csv_file, c_size, colname):
     """Return a dictionary with number of occurrences of values for a column."""
     
     count = {}
 
-    # Iterating csv_file
     for chunk in pd.read_csv(csv_file, chunksize=c_size):
-
-        # Iterating over colname in the dataframe chunk
         for entry in chunk[colname]:
             if entry in count.keys():
                 count[entry] += 1
