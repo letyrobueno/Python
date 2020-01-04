@@ -14,3 +14,6 @@
 
 ### Importing Data
 1. [Files](https://github.com/letyrobueno/Python/blob/master/importing_data/importing_files.py)
+
+### Useful links:
+1. [Best Practices - PEP8](https://www.python.org/dev/peps/pep-0008)
