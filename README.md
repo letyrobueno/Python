@@ -15,5 +15,8 @@
 ### Importing Data
 1. [Files](https://github.com/letyrobueno/Python/blob/master/importing_data/importing_files.py)
 
+### Matplotlib
+1. [Comparison of functions](https://github.com/letyrobueno/Python/blob/master/matplotlib/functions_comparison_plt.py)
+
 ### Useful links:
 1. [Best Practices - PEP8](https://www.python.org/dev/peps/pep-0008)
