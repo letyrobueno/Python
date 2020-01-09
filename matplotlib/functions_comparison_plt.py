@@ -1,3 +1,5 @@
+""" Comparison of main functions for Time Complexity (using Matplotlib).
+"""
 import matplotlib.pyplot as plt
 import numpy as np
 import math
@@ -5,7 +7,7 @@ import math
 # Constructing a graph for the less expensive functions
 n = np.arange(1, 6, 1) # (start, stop, step)
 
-# log n
+# Logarithmic function
 y = [np.log(i) for i in n]
 plt.plot(n, y, label="$log(n)$")
 
