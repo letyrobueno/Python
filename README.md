@@ -18,5 +18,8 @@
 ### Matplotlib
 1. [Comparison of functions](https://github.com/letyrobueno/Python/blob/master/matplotlib/functions_comparison_plt.py)
 
+### Plotly Express
+1. [Comparison of functions](https://github.com/letyrobueno/Python/blob/master/plotly/functions_comparison_plotly.py)
+
 ### Useful links:
 1. [Best Practices - PEP8](https://www.python.org/dev/peps/pep-0008)
