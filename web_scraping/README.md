@@ -16,5 +16,5 @@ Scrapy provides a web-crawling shell so we can use to see what components the We
 ```
 
 ### Some tutorials:
-	* [DataCamp Tutorial](https://www.datacamp.com/community/tutorials/making-web-crawlers-scrapy-python)
-	* [Scrapy Tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html)
+* [DataCamp Tutorial](https://www.datacamp.com/community/tutorials/making-web-crawlers-scrapy-python)
+* [Scrapy Tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html)
