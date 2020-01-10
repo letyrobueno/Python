@@ -1,7 +1,5 @@
 # Web Scraping
 
-[Scrapy Tutorial](https://www.datacamp.com/community/tutorials/making-web-crawlers-scrapy-python):
-
 Scrapy provides a web-crawling shell so we can use to see what components the Web page returns and how you can use them.
 
 ### Using Scrapy Shell in a Python environment:
@@ -14,4 +12,9 @@ Scrapy provides a web-crawling shell so we can use to see what components the We
 (env) $ response.xpath('/html').extract()               // xpath selector example
 (env) $ response.css('html').extract()
 (env) $ scrapy startproject test                        // Creates a hidden folder for your project
-(env) $ exit                                            // to leave the Scrapy shell```
+(env) $ exit                                            // to leave the Scrapy shell
+```
+
+### Some tutorials:
+	* [https://www.datacamp.com/community/tutorials/making-web-crawlers-scrapy-python](https://www.datacamp.com/community/tutorials/making-web-crawlers-scrapy-python)
+	* [https://docs.scrapy.org/en/latest/intro/tutorial.html](https://docs.scrapy.org/en/latest/intro/tutorial.html)
