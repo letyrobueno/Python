@@ -15,6 +15,21 @@ Scrapy provides a web-crawling shell so we can use to see what components the We
 (env) $ exit                                            // to leave the Scrapy shell
 ```
 
-### Some tutorials:
-* [DataCamp Tutorial](https://www.datacamp.com/community/tutorials/making-web-crawlers-scrapy-python)
-* [Scrapy Tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html)
+### Scraping static and dynamic websites
+
+#### Static websites (info in the HTML):
+
+* [CSS Selectors example](https://github.com/letyrobueno/Python/blob/master/web_scraping/css_selectors.py)
+* [xpath Selectors example](https://github.com/letyrobueno/Python/blob/master/web_scraping/xpath_selectors.py)
+* [Chaining both CSS and xpath Selectors](https://github.com/letyrobueno/Python/blob/master/web_scraping/chaining_xpath_css_selectors.py)
+* [Scrapy example](https://github.com/letyrobueno/Python/blob/master/web_scraping/spider_bestbuy_scrapy.py)
+
+Tools like [Scrapy](https://scrapy.org/), [Sky](http://docs.python-requests.org/en/master/), [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [Requests](http://docs.python-requests.org/en/master/) only retrieve static HTML, not the dynamic part rendered by JavaScript. In these cases:
+1. Intercept AJAX calls and reproduce them.
+* [Request example](https://github.com/letyrobueno/Python/blob/master/web_scraping/spider_bestbuy_scrapy.py)
+
+2. Automated browsers like [Selenium](https://selenium.dev/) and [Splash](https://splash.readthedocs.io/en/stable/).
+
+
+### Links:
+* [Scrapy Tutorial and Documentation](https://docs.scrapy.org/en/latest/intro/tutorial.html)
