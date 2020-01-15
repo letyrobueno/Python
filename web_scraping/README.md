@@ -19,9 +19,9 @@ Scrapy provides a web-crawling shell so we can use to see what components the We
 
 #### Static websites (info in the HTML):
 
-* [CSS Selectors example](https://github.com/letyrobueno/Python/blob/master/web_scraping/css_selectors.py)
-* [xpath Selectors example](https://github.com/letyrobueno/Python/blob/master/web_scraping/xpath_selectors.py)
-* [Chaining both CSS and xpath Selectors](https://github.com/letyrobueno/Python/blob/master/web_scraping/chaining_xpath_css_selectors.py)
+* [CSS selectors example](https://github.com/letyrobueno/Python/blob/master/web_scraping/css_selectors.py)
+* [xpath selectors example](https://github.com/letyrobueno/Python/blob/master/web_scraping/xpath_selectors.py)
+* [Chaining both CSS and xpath selectors](https://github.com/letyrobueno/Python/blob/master/web_scraping/chaining_xpath_css_selectors.py)
 * [Scrapy example](https://github.com/letyrobueno/Python/blob/master/web_scraping/spider_bestbuy_scrapy.py)
 
 #### Dynamic websites (info rendered by Javascript):
