@@ -25,7 +25,7 @@ Scrapy provides a web-crawling shell so we can use to see what components the We
 * [Scrapy example](https://github.com/letyrobueno/Python/blob/master/web_scraping/spider_bestbuy_scrapy.py)
 
 #### Dynamic websites (info rendered by Javascript):
-Tools like [Scrapy](https://scrapy.org/), [Sky](http://docs.python-requests.org/en/master/), [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [Requests](http://docs.python-requests.org/en/master/) only retrieve static HTML, not the dynamic part rendered by JavaScript. In these cases:
+Tools like [Scrapy](https://scrapy.org/), [Sky](http://docs.python-requests.org/en/master/), [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [Requests](http://docs.python-requests.org/en/master/) only retrieve static HTML, not the dynamic part rendered by Javascript. In these cases:
 1. Intercept AJAX calls and reproduce them.
 * [Request example](https://github.com/letyrobueno/Python/blob/master/web_scraping/spider_bestbuy_scrapy.py)
 
