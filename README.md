@@ -16,6 +16,9 @@
 1. [Files](https://github.com/letyrobueno/Python/blob/master/importing_data/importing_files.py)
 1. [Web scraping](https://github.com/letyrobueno/Python/tree/master/web_scraping)
 
+### Cleaning Data
+1. [Dealing with NaN values](https://github.com/letyrobueno/Python/tree/master/cleaning_data)
+
 ### Matplotlib
 1. [Comparison of functions](https://github.com/letyrobueno/Python/blob/master/matplotlib/functions_comparison_plt.py)
 
