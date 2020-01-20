@@ -14,6 +14,7 @@
 
 ### Importing Data
 1. [Files](https://github.com/letyrobueno/Python/blob/master/importing_data/importing_files.py)
+1. [Web scraping](https://github.com/letyrobueno/Python/tree/master/web_scraping)
 
 ### Matplotlib
 1. [Comparison of functions](https://github.com/letyrobueno/Python/blob/master/matplotlib/functions_comparison_plt.py)
