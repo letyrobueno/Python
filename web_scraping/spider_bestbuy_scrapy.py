@@ -4,12 +4,10 @@
   It takes only the laptops at https://www.bestbuy.ca/en-ca/category/laptops/36711
   It does not go through the other pages.
 """
-
-
 import scrapy
 import pandas as pd
 from scrapy.crawler import CrawlerProcess
-from datetime import datetime
+import time
 
 class laptop_spider(scrapy.Spider):
    """ Takes info from the list of laptops at bestbuy.ca.
@@ -59,7 +57,7 @@ process = CrawlerProcess()
 process.crawl(laptop_spider)
 process.start()
 
-now = str(datetime.now())
+now = time.strftime("%Y-%m-%d-%Hh%M")
 
 df = pd.DataFrame(items, columns=['Name', 'Price', 'Model', 'Proc Type', 'Proc Cores', 'Proc Speed', 'RAM', 'OS', 'url'])
 df.to_csv('laptops_bestbuy_' + now + '.csv', sep=',')
