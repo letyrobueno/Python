@@ -39,7 +39,7 @@ Tools like [Scrapy](https://scrapy.org/), [Sky](http://docs.python-requests.org/
 
 2. Use automated browsers like [Selenium](https://selenium.dev/) (too resource-consuming) and [Splash](https://splash.readthedocs.io/en/stable/) (it renders JS content only).<br>
 [Installing Splash](https://github.com/letyrobueno/Python/blob/master/web_scraping/splash.md)<br>
-Example with Splash and Scrapy.
+[Example with Splash and Scrapy](https://github.com/letyrobueno/Python/blob/master/web_scraping/splash.md)
 
 ### Links:
 * [Scrapy Tutorial and Documentation](https://docs.scrapy.org/en/latest/intro/tutorial.html)

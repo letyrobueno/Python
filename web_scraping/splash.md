@@ -1,4 +1,6 @@
-# Installing [Splash](http://splash.readthedocs.io/)
+# A spider using Scrapy and Splash
+
+### Installing [Splash](http://splash.readthedocs.io/)
 
 1. Install [Docker](https://www.docker.com/):
 ```$ sudo apt install docker.io```
@@ -10,7 +12,7 @@
 ```$ sudo docker run -p 8050:8050 scrapinghub/splash```
 Splash service will be on [http://localhost:8050](http://localhost:8050s)
 
-# Creating a [Scrapy-Splash](https://github.com/scrapy-plugins/scrapy-splash) project
+### Creating a [Scrapy-Splash](https://github.com/scrapy-plugins/scrapy-splash) project
 
 1. Install `scrapy-splash`:
 ```(env) $ python3 -m pip install scrapy-splash --user```
@@ -18,7 +20,7 @@ Splash service will be on [http://localhost:8050](http://localhost:8050s)
 2. Create a scrapy project:
 ```(env) $ scrapy startproject walmart_spider```
 
-# Integrating Scrapy and Splash
+### Integrating Scrapy and Splash
 1. Add the Splash server address to `settings.py` inside the project folder:
 ```SPLASH_URL = 'http://localhost:8050'```
 OR SOMETHING LIKE:
@@ -40,7 +42,7 @@ DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
 ```
 
-# Constructing the spider
+### Constructing the spider
 
 1. Create a Scrapy project:
 ```
