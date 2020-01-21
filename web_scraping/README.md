@@ -13,8 +13,8 @@ In [5]: response.xpath('/html').extract()               // xpath selector exampl
 In [6]: response.css('html').extract()
 In [7]: scrapy startproject test                        // Creates a Scrapy project
 In [8]: scrapy genspider test https://www.google.com    // Creates a spider inside test/spiders directory
-In [9]: scrapy crawl test 								// Run spider
-In [10]: exit                                            // to leave the Scrapy shell
+In [9]: scrapy crawl test                               // Run spider
+In [10]: exit                                           // to leave the Scrapy shell
 ```
 
 * To save data, add the following to the `settings.py` (it will append the data every time we run the spider):
