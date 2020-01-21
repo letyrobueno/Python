@@ -10,7 +10,7 @@
 
 3. Start Splash server:
 ```$ sudo docker run -p 8050:8050 scrapinghub/splash```
-Splash service will be on [http://localhost:8050](http://localhost:8050s)
+Splash service will be on `http://localhost:8050`
 
 ### Creating a [Scrapy-Splash](https://github.com/scrapy-plugins/scrapy-splash) project
 
@@ -52,7 +52,7 @@ scrapy startproject walmart_spider
 ```
 (env) $ scrapy genspider walmart_laptops https://www.walmart.ca/en/electronics/laptops-computers/laptops-notebooks/N-1855
 ```
-3. Program the spider and, inside the project directory, run:
+3. Program the spider ([example](https://github.com/letyrobueno/Python/blob/master/web_scraping/walmart_laptops.py)) and, inside the project directory, run:
 ```
 scrapy crawl walmart_laptops
 ```
