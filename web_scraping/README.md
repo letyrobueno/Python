@@ -5,10 +5,10 @@ Scrapy provides a web-crawling shell so we can use to see what components the We
 ### Using Scrapy Shell in a Python environment:
 ```
 (env) $ scrapy shell
-In [1]: fetch('https://www.aliexpress.com/category/200216607/tablets.html')
+In [1]: fetch('https://www.bestbuy.ca/en-ca/category/laptops/36711')
 In [2]: view(response)                                  // Web page will be opened in default browser
 In [3]: print(response.text)                            // Shows script that generates the Web page
-In [4]: response.css(".product::text").extract_first()  // CSS Selector example
+In [4]: response.css('.product::text').extract_first()  // CSS Selector example
 In [5]: response.xpath('/html').extract()               // xpath selector example
 In [6]: response.css('html').extract()
 In [7]: scrapy startproject test                        // Creates a Scrapy project

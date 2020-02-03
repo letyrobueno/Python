@@ -21,7 +21,7 @@ class BestBuyScraper:
     while True:
       response = requests.get(self.API_url.format(page))
 
-      data = response.json()
+      data = response.json() # returns a dictionary
       records = data.get('products')
       for record in records:
         item = {'Name': record['name'],

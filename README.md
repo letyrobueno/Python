@@ -13,7 +13,7 @@
 4. [Generators](https://github.com/letyrobueno/Python/blob/master/iterators/generators.py)
 
 ### Importing Data
-1. [Files](https://github.com/letyrobueno/Python/blob/master/importing_data/importing_files.py)
+1. [Files and relational databases](https://github.com/letyrobueno/Python/blob/master/importing_data/importing_files.py)
 1. [Web scraping](https://github.com/letyrobueno/Python/tree/master/web_scraping)
 
 ### Cleaning Data
@@ -27,3 +27,4 @@
 
 ### Useful links:
 1. [Best Practices - PEP8](https://www.python.org/dev/peps/pep-0008)
+2. [The Python Standard Library](https://docs.python.org/3/library/index.html)
